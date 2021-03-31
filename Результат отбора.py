@@ -22,7 +22,7 @@ def choice_pl(nickname, level, rating):
                         crossorigin="anonymous">
                               </head>
                               <body>
-                                <h1>Результаты отбора</h1>
+                                <h1>Результaты отбора</h1>
                                 <h2>Претендента на участие {nickname}
                                  <div class="alert alert-success" role="alert">Поздравляем! Ваш рейтинг после {level} этапа отбора</div>
                                  <div>составляет {rating}</div>
