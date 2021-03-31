@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>training/{{ prof }}</title>
+    </head>
+    <body>
+        {% if 'инженер' in {{prof}} or 'строитель' in {{prof}} %}
+            <h2>Инженерные тренажеры</h2>
+            <img src="/static/img/ing.jpg">
+        {% elif 'врач' in {{prof}} %}
+            <h2>Научные симуляторы</h2>
+            <img src="/static/img/sci.jpg">
+        {% endif %}
+    </body>
+</html>
